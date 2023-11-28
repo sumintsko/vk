@@ -64,7 +64,48 @@
 # print(a.replace("Hello", "Hi").lower().islower())
 # print(a.find("World"))
 
-print("Hello %s %d" % ("World", 123))
+#3 Formating strings and numbers
+
+
+# print("Hello %s %d" % ("World", 123))
+# print("Hello {} {}".format("World", 123 ))
+
+# var = "World"
+# var2 = 123
+# print(f"Hello, {var} {var2}")
+
+# print(f"{10000:,}") # разделить запятой
+# print(f"{3:+}") # добавить знак
+# print(f"{3:$=+5}") # заполнить строку 5-ю значениями $ после +
+# print(f"{3:$>+5}") # заполнить строку символами с левой части. Можно так же и < c правой.
+
+# i = 14
+# print(f"binary: {i:b}; octal: {i:o}; hex: {i:x}")
+
+# a = 1234.5678 
+# print(f"{a:.2f}") # укоротить число после запятой до 2-х символов с округлением
+# print(f"{a:#10.2f}") # увеличить строку до 10 ти символов + #86
+# print(f"{a:#>10.2f}") # добавить слева значки # вместо пробелов
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
