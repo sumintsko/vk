@@ -1,9 +1,11 @@
 #mod 1
 data_input = input()
-count = len(data_input)
-print(count)
-print(data_input.lower().replace("!", " ").replace("@", " ").replace("#", " ").replace("%", " "))
-print(count)
+before_count = len(data_input)
+formated_string = data_input.lower().replace("!", " ").replace("@", " ").replace("#", " ").replace("%", " ").strip()
+after_count = len(formated_string)
+print(before_count - after_count)
+print(formated_string)
+
                         
 
 
